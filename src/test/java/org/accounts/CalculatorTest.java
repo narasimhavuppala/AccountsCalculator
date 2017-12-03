@@ -47,7 +47,7 @@ public class CalculatorTest {
 	/**
 	 * Test method for {@link org.accounts.Calculator#multiplication(int, int)}.
 	 */
-	//@Test
+	@Test
 	public void testMultiplication() {
 		fail("Not yet implemented");
 	}
@@ -55,7 +55,7 @@ public class CalculatorTest {
 	/**
 	 * Test method for {@link org.accounts.Calculator#division(int, int)}.
 	 */
-	//@Test
+	@Test
 	public void testDivision() {
 		fail("Not yet implemented");
 	}
