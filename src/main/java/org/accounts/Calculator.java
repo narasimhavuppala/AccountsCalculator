@@ -3,6 +3,9 @@ package org.accounts;
 public class Calculator {
 
 	public int add(int a, int b) {
+		if (a < 0 && b <0) {
+			return (a+b);
+		}
 
 		  return a + b;
 	}
