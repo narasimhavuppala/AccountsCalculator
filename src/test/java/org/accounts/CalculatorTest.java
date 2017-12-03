@@ -39,7 +39,7 @@ public class CalculatorTest {
 	/**
 	 * Test method for {@link org.accounts.Calculator#subtract(int, int)}.
 	 */
-	//@Test
+	@Test
 	public void testSubtract() {
 		fail("Not yet implemented");
 	}
