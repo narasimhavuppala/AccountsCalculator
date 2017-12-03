@@ -41,7 +41,8 @@ public class CalculatorTest {
 	 */
 	@Test
 	public void testSubtract() {
-		fail("Not yet implemented");
+		int actual=obj.subtract(3, 5);
+		assertEquals(-2, actual);
 	}
 
 	/**
