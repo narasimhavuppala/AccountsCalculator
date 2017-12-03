@@ -34,7 +34,10 @@ public class CalculatorTest {
 		assertEquals(5, result);
 		
 		 result=obj.add(-2, 3);
-		assertEquals(1, result);
+		 assertEquals(1, result);
+		 result=obj.add(-2, -3);
+		 assertEquals(-5, result);
+		
 	
 		//fail("Not yet implemented");
 	}
