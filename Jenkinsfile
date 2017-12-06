@@ -7,5 +7,10 @@ pipeline {
         echo 'hello World'
       }
     }
+    stage('Build') {
+      steps {
+        sleep 3
+      }
+    }
   }
 }
