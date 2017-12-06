@@ -1,15 +1,9 @@
 pipeline {
   agent any
   stages {
-    stage('checkout') {
-      agent any
+    stage('TestIt') {
       steps {
-        echo 'hello World'
-      }
-    }
-    stage('Build') {
-      steps {
-        sleep 3
+        sleep 5
       }
     }
   }
